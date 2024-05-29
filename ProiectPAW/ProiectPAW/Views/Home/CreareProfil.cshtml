@@ -1,0 +1,52 @@
+﻿@model ProiectPAW.Models.UserInfo
+
+@{
+    ViewData["Title"] = "Create";
+}
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@using ProiectPAW.Models
+@{
+    var currentUser = await UserManager.GetUserAsync(User);
+}
+
+<div class="product">
+<div class="row">
+    <div class="col-md-12">
+            <form asp-action="CreareProfil" asp-route-id="@currentUser.Id">
+                <label class="control-label">Alege o imagine de profil:</label><br/>
+                <label>
+                    <input type="radio" name="ProfileImage" value="buchet/buchet4.jpg">
+                    <img src="~/imagini/buchet/buchet4.jpg" width="100" height="100">
+                </label>
+                <label>
+                    <input type="radio" name="ProfileImage" value="buchet/buchet2.jpg">
+                    <img src="~/imagini/buchet/buchet2.jpg" alt="Image 2" width="100" height="100">
+                </label>
+                <label>
+                    <input type="radio" name="ProfileImage" value="buchet/buchet3.jpg">
+                    <img src="~/imagini/buchet/buchet3.jpg" alt="Image 3" width="100" height="100">
+                </label>
+
+                <div class="form-group">
+                    <label asp-for="Username" class="control-label"></label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+            <div  class="form-group">
+                <input type="submit" value="Setare imagine de profil" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

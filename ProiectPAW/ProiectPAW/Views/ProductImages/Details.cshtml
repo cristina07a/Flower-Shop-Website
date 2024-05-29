@@ -1,0 +1,30 @@
+﻿@model ProiectPAW.Models.ProductImage
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ProductImage</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.path)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.path)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Products)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Products.productID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.imageID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model ProiectPAW.Models.Order
+<div class="product">
+        <form asp-action="Checkout">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="orderID" />
+            <div hidden class="form-group">
+                <label asp-for="dateOfPlacement" class="control-label"></label>
+                <input asp-for="dateOfPlacement" class="form-control" />
+                <span asp-validation-for="dateOfPlacement" class="text-danger"></span>
+            </div>
+            <div hidden class="form-group">
+                <label asp-for="status" class="control-label"></label>
+                <input asp-for="status" class="form-control" />
+                <span asp-validation-for="status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="mesaj" class="control-label">Vrei sa ne lasi un mesaj?</label>
+                <input asp-for="mesaj" class="form-control" />
+                <span asp-validation-for="mesaj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telefon" class="control-label">Numar de telefon:</label>
+            <input asp-for="telefon" class="form-control"/>
+                <span asp-validation-for="telefon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="adresa" class="control-label">Adresa de livrare:</label>
+                <input asp-for="adresa" class="form-control" />
+                <span asp-validation-for="adresa" class="text-danger"></span>
+            </div>
+                <input asp-for="TotalPrice" class="hidden" value="@ViewBag.pret" />    
+            
+            <div hidden class="form-group">
+                <label asp-for="userID" class="control-label"></label>
+                <select asp-for="userID" class="form-control" asp-items="ViewBag.userID"></select>
+                <span asp-validation-for="userID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+            <input type="submit" value="Finalizeaza comanda" class="btn btn-primary" onclick="validateOrder()" />
+        </div>
+        </form>
+</div>
+
+<script>
+    function validateOrder() {
+        var telefonInput = document.querySelector('input[name="telefon"]');
+        var telefon = telefonInput.value;
+
+        if (!/^\d{10}$/.test(telefon)) {
+            alert('Numarul de telefon trebuie sa fie exact 10 cifre.');
+            return false;
+        }
+        return true;
+    }
+</script>

@@ -1,0 +1,20 @@
+﻿@using ProiectPAW.Models
+@model IEnumerable<Product>
+
+
+<div class="product">
+    <section class="custom-container">
+        @foreach (var product in Model.Where(p => p.categoryID == 2))
+        {
+            <div class="col-sm-4">
+                <div>
+                    <h3>@product.name</h3>
+                    <a asp-area="" asp-controller="Home" asp-action="Produs" asp-route-id="@product.productID">
+                        <img src="~/imagini/@product.description">
+                    </a>
+                    <h3>Pret: @product.price lei</h3>
+                </div>
+            </div>
+        }
+    </section>
+</div>

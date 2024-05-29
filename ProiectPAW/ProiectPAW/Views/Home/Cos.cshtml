@@ -1,0 +1,96 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+@using Microsoft.AspNetCore.Identity
+@using ProiectPAW.Models
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model ProiectPAW.Models.Order
+@{
+    var currentUser = await UserManager.GetUserAsync(User);
+    var pretFinal = 0;
+    var pretTotal = 0;
+    var OrderID = 0;
+}
+
+<style>
+    .table
+    {
+        background-image: url('/imagini/cart-background.png');
+        background-size: contain;
+        border-radius: 5px;
+        padding: 20px;
+        border: 1px solid #2a6b8c;
+    }
+
+    .table tbody
+    {
+       text-align: left;
+    }
+
+</style>
+
+<div class="product">
+
+    <div class="container">
+
+        @if(ViewBag.Order == null)
+        {
+        <div class="row">
+            <div class="col-md-4">
+                    <form asp-action="CosCreate" asp-route-id="@currentUser.Id">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <input type="submit" value="Incepe cumparaturile!" class="btn btn-primary" />
+                        </div>
+                    </form>
+            </div>
+        </div>
+        }
+        else
+        {
+            <div class="cart">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Produs</th>
+                            <th>Pret</th>
+                            <th>Cantitate</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (OrderProduct orderproduct in ViewBag.OrderProduct)
+                        {
+                            foreach (Product product in ViewBag.Product)
+                            {
+                                if (product.productID == orderproduct.ProductID && orderproduct.OrderID == ViewBag.Order.orderID)
+                                {
+                                    pretTotal = (product.price ?? 0) * (orderproduct.Quantity ?? 0);
+                                    pretFinal += pretTotal;
+                                    <tr>
+                                        <td>@product.name</td>
+                                        <td>@product.price</td>
+                                        <td>@orderproduct.Quantity</td>
+                                        <td>@pretTotal</td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="text-right"><strong>Total general:</strong></td>
+                            <td><strong>@pretFinal</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <a asp-area="" class="btn btn-primary checkout-btn" asp-action="Checkout" asp-route-id="@ViewBag.Order.orderID" asp-route-pretTotal="@pretFinal">Checkout</a>
+        }
+    </div>
+</div>
+

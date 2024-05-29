@@ -1,0 +1,91 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProiectPAW.Models
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    var currentUser = await UserManager.GetUserAsync(User);
+}
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Florarie online</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProiectPAW.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true">
+
+    <style>
+        .product img {
+            width: 40%;
+            height: 40%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Florarie</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Acasa</a>
+                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                             <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Profil" asp-route-id="@currentUser.Id">Profilul meu</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Cos" asp-route-id="@currentUser.Id">Cos cumparaturi</a>
+                            </li> 
+                        }
+                    </ul>
+                <partial name="_loginPartial" />
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <img src="~/imagini/FloareSus.png" alt="Fotografie deasupra barei de navigare" class="mid-nav">
+            <img src="~/imagini/pune-ma.png" alt="Fotografie deasupra barei de navigare" class="mid-nav">
+            <img src="~/imagini/FloareSus.png" alt="Fotografie deasupra barei de navigare" class="mid-nav">
+
+            <nav class="category">
+                <a asp-area="" asp-controller="Home" asp-action="ListaProdus">Toate produsele</a>
+                <a asp-area="" asp-controller="Home" asp-action="Buchete">Buchete flori</a>
+                <a asp-area="" asp-controller="Home" asp-action="Aranjamente">Aranjamente florale</a>
+                <a asp-area="" asp-controller="Home" asp-action="Suculente">Trandafiri criogenati</a>
+                <a asp-area="" asp-controller="Home" asp-action="Criogenati">Plante suculente</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+
+        <p class="footer">&copy; 2024 Toate drepturile rezervate.<a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

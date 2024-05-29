@@ -1,0 +1,49 @@
+﻿@using ProiectPAW.Models
+@model IEnumerable<Product>
+
+<style>
+    .search-container{
+        margin: 10px;
+    }
+</style>
+
+
+<div class="product">
+    <section class="custom-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="searchByName()" placeholder="Scrie numele produsului cautat">
+        </div>
+        @foreach (var product in Model)
+        {
+            <div class="col-sm-4 product-item" data-name="@product.name">
+                <div>
+                    <h3>@product.name</h3>
+                    <a asp-area="" asp-controller="Home" asp-action="Produs" asp-route-id="@product.productID">
+                        <img src="~/imagini/@product.description">
+                    </a>
+                    <h3>Pret: @product.price lei</h3>
+                </div>
+            </div>
+        }
+    </section>
+</div>
+
+<script>
+    function searchByName() {
+        var input, filter, products, product, productName;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        products = document.getElementsByClassName("product-item");
+        for (var i = 0; i < products.length; i++) {
+            product = products[i];
+            productName = product.getAttribute("data-name");
+            if (productName.toUpperCase().indexOf(filter) > -1) {
+                product.style.display = "";
+            } else {
+                product.style.display = "none";
+            }
+        }
+    }
+</script>
+
+

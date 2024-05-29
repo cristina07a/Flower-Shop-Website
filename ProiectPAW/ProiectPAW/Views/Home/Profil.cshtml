@@ -1,0 +1,30 @@
+﻿
+@model UserInfo
+@using ProiectPAW.Models
+
+<div class="product">
+    @if(Model != null){
+        <img src="~/imagini/@Html.DisplayFor(model => model.ProfileImage)" alt="Exemplu GIF">
+    }
+    else{
+    <img src="~/imagini/blooming-flower.gif" alt="Exemplu GIF">
+    }
+    <p>
+        <code>Bun venit, @Html.DisplayFor(model => model.Username) !<br></code>
+        <br>
+        “Florile sunt limbajul universal al iubirii.”<br><br><br>
+
+
+        <em>
+            A tulip,<br>
+
+            With no shadow,<br>
+
+            Blossoms.<br>
+        </em>
+        Hiraki keri - Churippu
+    </p>
+</div>
+
+
+

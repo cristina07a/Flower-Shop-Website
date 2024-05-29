@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProiectPAW.Models
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav">
+            <a id="manage" class="nav text-white" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Bun venit, @UserManager.GetUserName(User)!</a>
+        </li>
+        <li class="nav">
+            <a id="logout" href="#" onclick="logout()" class="nav-link text-white">Deconecteaza-te</a>
+        </li>
+        <form id="logoutForm" class="text-white form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" style="display: none;">
+            <button type="submit">Logout</button>
+        </form>
+    }
+else
+{
+    <li class="nav">
+        <a class="nav text-white" id="register" asp-area="Identity" asp-page="/Account/Register">Inregistrare</a>
+    </li>
+    <li class="nav">
+        <a class="snav text-white" id="login" asp-area="Identity" asp-page="/Account/Login">Conectare</a>
+    </li>
+}
+</ul>
+
+<script>
+    function logout() {
+        document.getElementById('logoutForm').submit();
+    }
+</script>

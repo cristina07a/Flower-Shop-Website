@@ -1,0 +1,140 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@using ProiectPAW.Models
+@model ProiectPAW.Models.OrderProduct
+@{
+    var currentUser = await UserManager.GetUserAsync(User);
+}
+<style>
+
+    .product img {
+        float: left;
+        margin-bottom: 10px;
+        max-width: 200px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .product h2 {
+        float: right;
+        margin-top: 0;
+    }
+
+    .product p {
+        margin: 5px 0;
+    }
+
+    .add-to-cart-button {
+        background-color: #2a6b8c;
+        color: rgb(255, 255, 255);
+        border: 2px solid #2a6b8c;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+        .add-to-cart-button:hover {
+            background-color: #529cc1;
+            color: #ffffff;
+        }
+
+    .quantity-form {
+        margin-left: 40px;
+        display: none;
+        color: black;
+    }
+
+    .quantity-input {
+        width: 50px;
+        float: right;
+    }
+
+    .cantitate {
+        color: black;
+    }
+
+    .product-details{
+        text-align: left;
+    }
+</style>
+
+<div class="product">
+
+    <img src="~/imagini/@ViewBag.Product.description">
+     <div class="product-details" id="productDetails"> 
+        <h4><b>Detalii produs</b></h4>
+            <p>
+            Nume: @ViewBag.Product.name
+            </p>
+            <p>
+        Pret: @ViewBag.Product.price
+            </p>
+            <p>
+        Stoc disponibil: @ViewBag.Product.availableStock
+            </p>
+            <p>
+        Producator: @ViewBag.Product.providerID
+            </p>
+   </div> 
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <button class="add-to-cart-button" onclick="showQuantityForm()" c>Cumpara</button>
+    <div class="quantity-form" style="display: none;">
+            <form asp-action="AddToOrder" asp-route-id="@ViewBag.Id" asp-route-userId="@currentUser.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div hidden class="form-group">
+                <label asp-for="OrderID" class="control-label"></label>
+                <select asp-for="OrderID" class="form-control" asp-items="ViewBag.OrderID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label" >Cantitate:</label>
+                    <input asp-for="Quantity" class="form-control" min="1" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div hidden class="form-group">
+                <label asp-for="ProductID" class="control-label"></label>
+                <select asp-for="ProductID" class="form-control" asp-items="ViewBag.ProductID"></select>
+            </div>
+            <div class="form-group">
+                    <input type="submit" value="Adauga in cos" class="btn btn-primary" onclick="validateQuantity()"/>
+            </div>
+        </form>
+    </div>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-black" id="login" asp-area="Identity" asp-page="/Account/Login">Conecteaza-te pentru a cumpara</a>
+    </li>
+}
+</div>
+
+<script>
+    function showQuantityForm() {
+        var quantityForm = document.querySelector('.quantity-form');
+        quantityForm.style.display = 'block';
+    }
+
+    function validateQuantity() {
+        var quantityInput = document.querySelector('#Quantity');
+        var quantity = parseInt(quantityInput.value);
+
+        if (quantity < 1 || isNaN(quantity)) {
+            alert('Trebuie sa ai minim 1 produs pentru a putea sa il adaugi in cos!');
+            return false;
+        }
+        else 
+        {
+            alert('Produs adaugat in cos cu succes!');
+        }
+        return true;
+
+    }
+</script>

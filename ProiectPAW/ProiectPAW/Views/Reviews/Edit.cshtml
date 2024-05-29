@@ -1,0 +1,44 @@
+﻿@model ProiectPAW.Models.Review
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Review</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="reviewID" />
+            <div class="form-group">
+                <label asp-for="textContent" class="control-label"></label>
+                <input asp-for="textContent" class="form-control" />
+                <span asp-validation-for="textContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="numberOfStars" class="control-label"></label>
+                <input asp-for="numberOfStars" class="form-control" />
+                <span asp-validation-for="numberOfStars" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="productID" class="control-label"></label>
+                <select asp-for="productID" class="form-control" asp-items="ViewBag.productID"></select>
+                <span asp-validation-for="productID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

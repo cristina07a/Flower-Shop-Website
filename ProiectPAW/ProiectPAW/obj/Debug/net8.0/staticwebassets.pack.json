@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProiectPAW.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProiectPAW.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\css\\detaliiProdus.css",
+      "PackagePath": "staticwebassets\\css\\detaliiProdus.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\FloareSus.png",
+      "PackagePath": "staticwebassets\\imagini\\FloareSus.png"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament1.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament2.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament3.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament4.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament5.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\aranjamente\\aranjament6.jpg",
+      "PackagePath": "staticwebassets\\imagini\\aranjamente\\aranjament6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\blooming-flower.gif",
+      "PackagePath": "staticwebassets\\imagini\\blooming-flower.gif"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet1.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet2.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet3.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet4.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet5.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\buchet\\buchet6.jpg",
+      "PackagePath": "staticwebassets\\imagini\\buchet\\buchet6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\cart-background.png",
+      "PackagePath": "staticwebassets\\imagini\\cart-background.png"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\1albastru.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\1albastru.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\1rosu.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\1rosu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\1roz.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\1roz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\3albastrii.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\3albastrii.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\3rosii.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\3rosii.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\criogenati\\3roz.jpg",
+      "PackagePath": "staticwebassets\\imagini\\criogenati\\3roz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\floare-miscandu-se.gif",
+      "PackagePath": "staticwebassets\\imagini\\floare-miscandu-se.gif"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\pune-ma.png",
+      "PackagePath": "staticwebassets\\imagini\\pune-ma.png"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\purple-flower.jpg",
+      "PackagePath": "staticwebassets\\imagini\\purple-flower.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\aloeInterstellar.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\aloeInterstellar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\copaculBanilor.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\copaculBanilor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\crassulaPerforata.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\crassulaPerforata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\crassulaUndulata.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\crassulaUndulata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\plantaSarpe.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\plantaSarpe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\imagini\\suculente\\sedunMakinoi.jpg",
+      "PackagePath": "staticwebassets\\imagini\\suculente\\sedunMakinoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\adaugareFisierJSON.js",
+      "PackagePath": "staticwebassets\\js\\adaugareFisierJSON.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\adaugareFisierJSON_aranjament.js",
+      "PackagePath": "staticwebassets\\js\\adaugareFisierJSON_aranjament.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\adaugareFisierJSON_buchet.js",
+      "PackagePath": "staticwebassets\\js\\adaugareFisierJSON_buchet.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\adaugareFisierJSON_criogenat.js",
+      "PackagePath": "staticwebassets\\js\\adaugareFisierJSON_criogenat.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\adaugareFisierJSON_suculente.js",
+      "PackagePath": "staticwebassets\\js\\adaugareFisierJSON_suculente.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\addToCart.js",
+      "PackagePath": "staticwebassets\\js\\addToCart.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\cautaFloare.js",
+      "PackagePath": "staticwebassets\\js\\cautaFloare.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\gotoProduct.js",
+      "PackagePath": "staticwebassets\\js\\gotoProduct.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\productDetails.js",
+      "PackagePath": "staticwebassets\\js\\productDetails.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\query\\AddProducts.sql",
+      "PackagePath": "staticwebassets\\query\\AddProducts.sql"
+    },
+    {
+      "Id": "C:\\Users\\Cristina\\Desktop\\Prezentarea5_PAW\\ProiectPAW(1)\\ProiectPAW\\ProiectPAW\\wwwroot\\video\\home_58142.mp4",
+      "PackagePath": "staticwebassets\\video\\home_58142.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProiectPAW.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProiectPAW.props",
+      "PackagePath": "build\\ProiectPAW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProiectPAW.props",
+      "PackagePath": "buildMultiTargeting\\ProiectPAW.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProiectPAW.props",
+      "PackagePath": "buildTransitive\\ProiectPAW.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
