@@ -10,5 +10,8 @@
 -restricted access to certain pages based on role </br>
 -redirecting user to a page after successful log in</br>
 
+<h3>Database</h3>
+The database I created is not the one I have in the project. For an easier understanding of the database, I added an incomplete User instead of all the tables Identity provides.</br>
+
 <h3>Application screenshots</h3>
 I included the screenshots in a PDF.
