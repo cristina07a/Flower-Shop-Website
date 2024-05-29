@@ -11,5 +11,6 @@
 -redirecting user to a page after successful log in</br>
 
 <h3>Application screenshots</h3>
-Homepage:
+Homepage:</br>
+![Homepage](https://github.com/cristina07a/Flower-Shop-Website/assets/122676393/a2724cb4-77d2-4f96-b03a-d71d85df321d)
 
